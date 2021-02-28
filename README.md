@@ -78,8 +78,8 @@ DEBUG=* npx eleventy
 * `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
 
 
-          Edit the <code>_data/metadata.json</code> with your blog’s information.
-          (Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences.
-          Delete this message from <code>_includes/layouts/base.njk</code>.
+          1. Edit the _data/metadata.json with your blog’s information.
+          2. (Optional) Edit .eleventy.js with your <a href="https://www.11ty.dev/docs/config/">configuration preferences.
+          3. Delete this message from <code>_includes/layouts/base.njk</code>.
         
-        This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo
+        This is an <a href="https://www.11ty.dev/">Eleventy</a> project created from the <a href="https://github.com/11ty/eleventy-base-blog">eleventy-base-blog</a> repo.
