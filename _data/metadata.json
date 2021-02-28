@@ -1,12 +1,12 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Murrs blog",
+  "url": "https://murrsblog.netlify.app/",
+  "description": "This is my experience of JAMstack coding.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "This is my experience of JAMstack coding.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://murrsblog.netlify.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",

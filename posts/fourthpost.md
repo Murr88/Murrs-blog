@@ -1,5 +1,5 @@
 ---
-title: This is my fourth post.
+title: The 4th post on my own blog.
 description: This is a post on My Blog about touchpoints and circling wagons.
 date: 2018-09-30
 tags: second-tag
