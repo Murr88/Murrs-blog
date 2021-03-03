@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Contact
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact
