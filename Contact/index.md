@@ -26,11 +26,11 @@ Please contact us if you need anything.
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-    <button type="submit">Send</button>
-  </p>
-  <p>
   <input type="checkbox">
   <label for="Terms and Conditions">Terms and Conditions</label><br>
+  </p>
+  <p>
+    <button type="submit">Send</button>
   </p>
 </form>
 
