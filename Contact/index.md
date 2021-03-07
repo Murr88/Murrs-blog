@@ -28,5 +28,9 @@ Please contact us if you need anything.
   <p>
     <button type="submit">Send</button>
   </p>
+  <p>
+  <input type="checkbox">
+  <label for="Terms and Conditions">Terms and Conditions</label><br>
+  </p>
 </form>
 
