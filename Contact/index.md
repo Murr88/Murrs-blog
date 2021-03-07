@@ -26,7 +26,7 @@ Please contact us if you need anything.
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
-  <input type="checkbox">
+  <input type="checkbox" id="terms and conditions" name="terms and conditions" value="terms">
   <label for="Terms and Conditions">Terms and Conditions</label><br>
   </p>
   <p>
