@@ -6,13 +6,14 @@
     <title>{{ title or metadata.title }}</title>  
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
-    <header class="h1">
+    <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -28,9 +29,9 @@
       {{ content | safe }}
     </main>
 
-    <footer class="container-main">
+    <footer class="text-center">
       <p>
-        <h3>© 2021 - Brought to you by Jesper Aka The Murr.</h3>
+        <h3>&copy 2021 - Brought to you by Jesper Aka The Murr.</h3>
       </p>
     </footer>
 

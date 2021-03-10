@@ -74,7 +74,7 @@ console.log('Task 3 End');
 
 console.log('Task 4 Start');
 console.log('-------------');
-/*---- <> || ----*/
+/*---- < > || >= <= ----*/
 
 // Both Comparisons have to be true &&
 // One comparison have to be true 

@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-.container-main {
+.text-center {
   text-align:center;
 }
 html,
@@ -48,7 +48,10 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed yellowgreen;
+  border-width: 80%;
+  border-bottom: 1px dashed;
+  color:yellowgreen;
+  background-color: teal;
 }
 header:after {
   content: "";
@@ -124,6 +127,7 @@ pre {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
+  color: yellow;
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -140,6 +144,7 @@ pre {
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  color:yellow;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
@@ -228,4 +233,14 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+/* Footer */
+
+footer {
+  height: 100px;
+  padding: 3rem;
+  background-color: #8ac4d0;
+  text-align: center;
+
 }
