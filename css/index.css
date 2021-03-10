@@ -11,6 +11,10 @@
 * {
   box-sizing: border-box;
 }
+
+.container-main {
+  text-align:center;
+}
 html,
 body {
   padding: 0;
@@ -44,7 +48,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed yellowgreen;
 }
 header:after {
   content: "";
@@ -131,6 +135,7 @@ pre {
   list-style: none;
   float: left;
   margin-left: 1em;
+  color:yellowgreen;
 }
 .nav-item {
   display: inline-block;

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head class="h1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>  
@@ -12,7 +12,7 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>
+    <header class="h1">
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -23,12 +23,16 @@
       </ul>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %} class="h1">
 
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="h3">
+      <p>
+        <h3>© 2021 - By Jesper Spångberg</h3>
+      </p>
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
 <script>

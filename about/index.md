@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+Hi, I am Jesper, currently learning JAMstack at The Coders Guild in Leeds UK.
