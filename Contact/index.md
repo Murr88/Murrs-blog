@@ -11,12 +11,11 @@ eleventyNavigation:
     <div class="row">
       <div class="container-main">
       <h2>Jesper Spångberg</h2><br>
-      <h4>Address</h4>
-      <p>2 Bodmin Gardens <br>Leeds, West Yorkshire<br> LS10 4NP </p><br>
       <h4>Email Address</h4>
       <p>Jesper.spangberg@gmail.com </p>
       <h4>Phone Number</h4>
-      <p>07394198149</p>
+      <p>+447394198149</p>
+      <p>+46733894262</p>
       </div>
     </div>
   </div>
