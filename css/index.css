@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+div {
+  float:left;
+  width:80%;
+}
+
 .text-center {
   text-align:center;
 }
@@ -21,7 +26,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: yellowgreen;
-  background-color:teal;
+  background-color:var(--darkgray);
 }
 p:last-child {
   margin-bottom: 0;
@@ -50,8 +55,8 @@ main :first-child {
 header {
   border-width: 80%;
   border-bottom: 1px dashed;
-  color:yellowgreen;
-  background-color: teal;
+  background-color:#902f2f;
+  color:#C5004A;
 }
 header:after {
   content: "";
@@ -130,14 +135,14 @@ pre {
   color: yellow;
 }
 .home :link:not(:hover) {
-  text-decoration: none;
+  color:var(--red);
 }
 
 /* Nav */
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  float: none;
   margin-left: 1em;
   color:yellowgreen;
 }
@@ -148,10 +153,12 @@ pre {
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
+  color:yellow;
 }
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+  color:yellow;
 }
 
 /* Posts list */
@@ -238,9 +245,8 @@ a[href].direct-link:focus:visited,
 /* Footer */
 
 footer {
-  height: 100px;
-  padding: 3rem;
-  background-color: #8ac4d0;
+  height: 50px;
+  padding: 3px;
+  background-color:#333;
   text-align: center;
-
 }
