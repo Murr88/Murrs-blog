@@ -12,11 +12,6 @@
   box-sizing: border-box;
 }
 
-div {
-  float:left;
-  width:80%;
-}
-
 .text-center {
   text-align:center;
 }

@@ -6,10 +6,11 @@ eleventyNavigation:
   key: Contact
   order: 9
 ---
-<div>
+
+<div class="text-center"><h2>Contact Information</h2></div>
+<div class="text-center">
   <div class="row">
     <div class="col-md-6">
-        <h2>Contact Information</h2>
         <h3>Jesper Spångberg</h3><br>
         <h4>Email Address</h4>
         Jesper.spangberg@gmail.com
