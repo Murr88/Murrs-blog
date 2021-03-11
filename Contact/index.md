@@ -9,7 +9,7 @@ eleventyNavigation:
 <div>
   <div class="row">
     <div class="col-md-6">
-        h1
+        <h2>Contact Information</h2>
         <h3>Jesper Spångberg</h3><br>
         <h4>Email Address</h4>
         Jesper.spangberg@gmail.com
