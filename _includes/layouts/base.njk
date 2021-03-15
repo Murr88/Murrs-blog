@@ -25,13 +25,14 @@
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %} class="h1">
-
+    
+    <div class="container">
       {{ content | safe }}
+    </div>
     </main>
-    <div>
-      <footer>
+    <div class="footer">
+      
         <h4>&copy 2021 - Brought to you by Jesper Aka The Murr.</h4>
-      </footer>
     </div>
     <!-- Current page: {{ page.url | url }} -->
 <script>

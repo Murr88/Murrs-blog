@@ -4,19 +4,19 @@ title: Functions
 templateClass: tmpl-post
 eleventyNavigation:
   key: Function
-  order: 11
+  order: 12
 ---
 
 <script>
 
 /*---- <> ----*/
-/*
+
 
 function outputMessage() {
     console.log('Output Message');
 }
 
-/* ------ Task 1 ------ 
+/* ------ Task 1 ------ */
 
 
 
@@ -35,7 +35,7 @@ function combineStrings(string1, string2) {
 }
 
 /* ------ Task 2 ------ */
-/*
+
 console.log('Task 2 Start')
 console.log('-------------');
 
@@ -49,9 +49,9 @@ console.log('Task 2 End');
 
 console.log('-----------------------------------');
 
-*/
+
 /* ------ Task 3 ------ */
-/*
+
 function combineStringsAndReturn(string1, string2) {
     var combinedStrings = string1 + " " + string2;
     return combinedStrings;

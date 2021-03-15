@@ -239,9 +239,12 @@ a[href].direct-link:focus:visited,
 
 /* Footer */
 
-footer {
+.footer {
   height: 50px;
   padding: 3px;
-  background-color:#333;
+  background-color:blueviolet;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: auto;
 }

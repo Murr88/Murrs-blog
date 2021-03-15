@@ -6,11 +6,10 @@ eleventyNavigation:
   key: Contact
   order: 9
 ---
-
 <div class="text-center"><h2>Contact Information</h2></div>
 <div class="text-center">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6"><br><br>
         <h3>Jesper Spångberg</h3><br>
         <h4>Email Address</h4>
         Jesper.spangberg@gmail.com
@@ -18,7 +17,7 @@ eleventyNavigation:
         +447394198149<br> 
         +46733894262
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6"><br><br>
       <h3>Please contact me if you need anything.</h3>
       <form name="contact" method="POST" data-netlify="true">
       <p><label>Your Name: <input type="text" name="name" /></label></p>
