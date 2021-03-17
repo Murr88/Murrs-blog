@@ -4,7 +4,7 @@ title: Functions
 templateClass: tmpl-post
 eleventyNavigation:
   key: Function
-  order: 5
+  order: 8
 ---
 
 <script>

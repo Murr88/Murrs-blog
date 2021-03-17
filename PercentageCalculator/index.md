@@ -4,7 +4,7 @@ title: Percentage Calculator
 templateClass: tmpl-post
 eleventyNavigation:
   key: Percentage Calculator
-  order: 7
+  order: 10
 ---
 
 <script>

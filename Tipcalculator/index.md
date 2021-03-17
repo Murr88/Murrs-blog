@@ -4,6 +4,6 @@ title: Tip Calculator
 templateClass: tmpl-post
 eleventyNavigation:
   key: Tip Calculator
-  order: 6
+  order: 9
 ---
 
