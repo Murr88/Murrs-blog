@@ -36,10 +36,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: lightslategray;
 }
 a[href]:visited {
-  color: var(--navy);
+  color: yellowgreen;
 }
 main {
   padding: 1rem;
@@ -48,9 +48,11 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-width: 80%;
+  margin: auto;
+  width: 90%;
+  left:5%;
   border-bottom: 1px dashed;
-  background-color:#902f2f;
+  background-color: teal;
   color:#C5004A;
 }
 header:after {
@@ -123,6 +125,9 @@ pre {
 
 /* Header */
 .home {
+  width: 90%;
+  left: 5%;
+  text-align: center;
   padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
@@ -130,25 +135,31 @@ pre {
   color: yellow;
 }
 .home :link:not(:hover) {
-  color:var(--red);
+  color:yellow;
 }
 
 /* Nav */
 .nav {
+  width: 90%;
+  left: 5%;
+  text-align: center;
   padding: 0;
   list-style: none;
   float: none;
   margin-left: 1em;
   color:yellowgreen;
+  left: 10%;
 }
 .nav-item {
   display: inline-block;
   margin-right: 1em;
-  color:yellow;
+  color: yellow;
+  text-align: center;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
   color:yellow;
+  text-align: center;
 }
 .nav-item-active {
   font-weight: 700;
@@ -174,7 +185,7 @@ pre {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: coral;
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -239,12 +250,14 @@ a[href].direct-link:focus:visited,
 
 /* Footer */
 
-.footer {
+.foot {
+  margin: auto;
+  width: 90%;
   height: 50px;
   padding: 3px;
   background-color:blueviolet;
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: auto;
+  left: 5%;
 }

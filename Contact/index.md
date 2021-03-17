@@ -4,7 +4,7 @@ title: Contact Information
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact
-  order: 9
+  order: 5
 ---
 <div class="text-center"><h2>Contact Information</h2></div>
 <div class="text-center">

@@ -1,9 +1,9 @@
 ---
 layout: layouts/home.njk
-title: Tip Calculator
+title: Fizz Buzz
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Tip Calculator
-  order: 6
+  key: Fizz Buzz
+  order: 8
 ---
 
