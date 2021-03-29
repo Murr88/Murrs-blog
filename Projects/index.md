@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Projects
   order: 6
 ---
-<p position="center"><button onclick="AlertName()">Click Me</button></p>
+<p position="center"><button onclick="AlertName()">Type your nme for a popup to show your name :)</button></p>
 
 <div class="text-center">
     <h1>Websites</h1>
