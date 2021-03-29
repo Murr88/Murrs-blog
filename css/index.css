@@ -258,7 +258,7 @@ a[href].direct-link:focus:visited,
   height: 50px;
   padding: 3px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 5%;
 }
