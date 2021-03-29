@@ -1,6 +1,6 @@
 function AlertName(name3){
   var name3 = prompt('What is your name?');
-  alert("Hello " + name3);
+  alert("Hello " + name3 + ". How are you today?");
 
 }
 

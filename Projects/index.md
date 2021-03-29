@@ -6,19 +6,24 @@ eleventyNavigation:
   key: Projects
   order: 6
 ---
-<p position="center"><button onclick="AlertName()">Type your nme for a popup to show your name :)</button></p>
+<p position="center"><button onclick="AlertName()">Type your name for a popup to show your name :)</button></p>
 
 <div class="text-center">
-    <h1>Websites</h1>
-<row>
-<div class="col-md-3">
-    <a href="https://murr88.github.io/band-website/" target="_blank">Band Website</a>
+        <h1>Websites</h1>
 </div>
-<row>
-<div class="col-md-3">
-    <a href="https://murr88.github.io/punk-rock-bands/" target="_blank">Punk Rock Bands Website</a>
+<div>
+ <row>
+    <div class="col-sm-4">
+        <a href="https://murr88.github.io/band-website/" target="_blank"><img src="/img/Sabaton-logo.png" style="width: 250px;height: 50px;" alt="My tribute to Sabaton."></a>
+    </div>
+    <br>
+    <div class="col-sm-4">
+        <a href="https://murr88.github.io/punk-rock-bands/" target="_blank"><img src="/img/Punk-Rock-Bands.png" style="width: 250px;height: 50px;" alt="My Punk Rock Bands Website."></a>
+    </div>
+    <br>
+    <div class="col-sm-4">
+        <a href="https://github.com/Murr88" target="_blank"><img src="/img/Github-logo.png" style="width: 250px;height: 250px;" alt="My Github Profile."></a>
+    </div>
 </div>
-<row>
-<div class="col-md-3">
-    <a href="https://github.com/Murr88" target="_blank">Github Website</a>
-</div>
+<hr>
+<br>
