@@ -20,13 +20,13 @@ eleventyNavigation:
     <div class="col-md-6"><br><br>
       <h3>Please contact me if you need anything.</h3>
       <form name="contact" method="POST" data-netlify="true">
-      <p><label>Your Name: <input type="text" name="name" /></label></p>
-      <p><label>Your Email: <input type="email" name="email" /></label></p>
-      <p><label>Your Role: <select name="role[]" multiple>
+      <p><label>Your Name: <br><input type="text" name="name" /></label></p>
+      <p><label>Your Email: <br><input type="email" name="email" /></label></p>
+      <p><label>Your Role: <br><select name="role[]" multiple>
       <option value="leader">Leader</option>
       <option value="follower">Follower</option>
       </select></label></p>
-      <p><label>Message: <textarea name="message"></textarea></label></p>
+      <p><label>Message: <br><textarea name="message"></textarea></label></p>
       <p><input type="checkbox" id="terms and conditions" name="terms and conditions" value="terms">
       <label for="Terms and Conditions">Accept Terms and Conditions?</label><br></p>
       <p><button type="submit">Send</button></p>
