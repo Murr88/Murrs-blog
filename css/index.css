@@ -261,4 +261,5 @@ a[href].direct-link:focus:visited,
   position: fixed;
   bottom: 0;
   left: 5%;
+  font-size: large;
 }
