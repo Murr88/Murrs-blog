@@ -103,7 +103,7 @@ eleventyNavigation:
         for (let i = 0; i < images.length; i++) {
             var imageElement = images[i];
 
-            if animal === 'all' || imageElement.classList.contains(animal)) {
+            if (animal === 'all' || imageElement.classList.contains(animal)) {
                 imageElement.style.display = 'block';
             }
             else {
@@ -114,9 +114,9 @@ eleventyNavigation:
 
     function updateClickButton(selectedButton) {
         for (let i = 0; i < button.length; i++) {
-            if (button1[i] === selectedButton) {
+            if (button[i] === selectedButton) {
                 // the button we clicked
-                button[i]classList.add('selected');
+                button[i].classList.add('selected');
             }
             else {
                 // not the buttong we clicked
@@ -124,27 +124,25 @@ eleventyNavigation:
             }
         }
     }    
-    function updateHelpterText(animal) {
-        helpterText.innerHTML = "You're looking at pictures of " + animal;
+    function updateHelperText(animal) {
+        helperText.innerHTML = "You're looking at pictures of " + animal + "s. ";
     }
     
     for (let i = 0; i < button.length; i++) {
         button[i].addEventListener("click", function(event) {
-        event.preventDefault();
+            event.preventDefault();
         
-        var animal = button[i].dataset.animal;
+            var animal = button[i].dataset.animal;
 
-        console.log(animal);
+            console.log(animal);
 
-        updateImageDisplay(animal);
-        updateClickedButton(button[i]);
-        updateHelperText(animal);
+            updateImageDisplay(animal);
+            updateClickedButton(button[i]);
+            updateHelperText(animal);
         });
     }
 
-    searchbox.addEventListener(
-        'keyup', 
-        function(event) {
+    searchbox.addEventListener('keyup', function(event) {
             var mySearchTerm = this.value;
 
             for (let i= 0; i <images.length; i++) {
