@@ -24,7 +24,7 @@ eleventyNavigation:
         border: 1px solid red;
     }
 </style>    
-<h1>Intro to the DOM</h1>
+<h1>Intro to the DOM - Practical</h1>
 <hr>
 <p id="helper-text"></p>
 
@@ -112,7 +112,7 @@ eleventyNavigation:
         }
     }
 
-    function updateClickButton(selectedButton) {
+    function updateClickedButton(selectedButton) {
         for (let i = 0; i < button.length; i++) {
             if (button[i] === selectedButton) {
                 // the button we clicked
@@ -125,7 +125,7 @@ eleventyNavigation:
         }
     }    
     function updateHelperText(animal) {
-        helperText.innerHTML = "You're looking at pictures of " + animal + "s. ";
+        helperText.innerHTML = "You're looking at pictures of " + animal + ".";
     }
     
     for (let i = 0; i < button.length; i++) {
@@ -142,18 +142,36 @@ eleventyNavigation:
         });
     }
 
-    searchbox.addEventListener('keyup', function(event) {
-            var mySearchTerm = this.value;
+    // searchBox.addEventListener('keyup', function(event) {
+    //         var mySearchTerm = this.value;
 
-            for (let i= 0; i <images.length; i++) {
-                var dave = images[i];
-                if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)); {
-                    dave.style.display = 'block';
-                }
-                else {
-                    dave.style.display = 'none';
-                }
+    //         for (let i = 0; i < images.length; i++) {
+    //             var dave = images[i];
+                
+    //             if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)); {
+    //                 dave.style.display = 'block';
+    //             }
+    //             else {
+    //                 dave.style.display = 'none';
+    //             }
+    //         }
+    //     }    
+    // );
+
+    function keyup(event) {
+        var mySearchTerm = this.value;
+
+        for (let i = 0; 0 < images.length; i++) {
+            var dave = images[i];
+
+            if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)) {
+                dave.style.display = 'block';
             }
-        }    
+            else {
+                dave.style.display = 'none';
+            }
+        }
+    }
+    searchBox.addEventListener('keyup', keyupFunction
     );
 </script>
