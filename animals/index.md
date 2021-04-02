@@ -9,7 +9,7 @@ eleventyNavigation:
 <style>
     .grid {
         display: grid;
-        grid-template-columns: repeat(4, 4fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     img {
@@ -26,7 +26,7 @@ eleventyNavigation:
 </style>    
 <h1>Intro to the DOM</h1>
 <hr>
-<p id="helper-text">
+<p id="helper-text"></p>
 
 <div>
     <form>
@@ -90,19 +90,17 @@ eleventyNavigation:
     </div> 
 </div>
 
-</p>
-
 <a href="heres-one-i-made-earlier">all of the completed tasks are hidden behind this link...</a>
-
 
 <script type="text/javascript">
     const button = document.querySelectorAll(".buttonFilter");
     const images = document.querySelectorAll(".imageFilter");
+    const helperText = document.querySelector('#helper-text');
 
     console.log(button);
 
     function updateImageDisplay(animal) {
-        for (let 1 = 0; i < images.length; i++) {
+        for (let i = 0; i < images.length; i++) {
             var imageElement = images[i];
 
             if animal === 'all' || imageElement.classList.contains(animal)) {
@@ -115,7 +113,7 @@ eleventyNavigation:
     }
 
     function updateClickButton(selectedButton) {
-        for (let 1 = 0; i < button.length; i++) {
+        for (let i = 0; i < button.length; i++) {
             if (button1[i] === selectedButton) {
                 // the button we clicked
                 button[i]classList.add('selected');
@@ -130,7 +128,7 @@ eleventyNavigation:
         helpterText.innerHTML = "You're looking at pictures of " + animal;
     }
     
-    for (let 1 = 0; i < button.length; i++) {
+    for (let i = 0; i < button.length; i++) {
         button[i].addEventListener("click", function(event) {
         event.preventDefault();
         
@@ -144,7 +142,20 @@ eleventyNavigation:
         });
     }
 
-    searchbox.addEventListener('keyup', function(event) {
-        console.log('You typed ' + this.value);
-    }
+    searchbox.addEventListener(
+        'keyup', 
+        function(event) {
+            var mySearchTerm = this.value;
+
+            for (let i= 0; i <images.length; i++) {
+                var dave = images[i];
+                if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)); {
+                    dave.style.display = 'block';
+                }
+                else {
+                    dave.style.display = 'none';
+                }
+            }
+        }    
+    );
 </script>
