@@ -142,36 +142,36 @@ eleventyNavigation:
         });
     }
 
-    // searchBox.addEventListener('keyup', function(event) {
-    //         var mySearchTerm = this.value;
+    searchBox.addEventListener('keyup', function(event) {
+            var mySearchTerm = this.value;
 
-    //         for (let i = 0; i < images.length; i++) {
-    //             var dave = images[i];
+            for (let i = 0; i < images.length; i++) {
+                var dave = images[i];
                 
-    //             if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)); {
-    //                 dave.style.display = 'block';
-    //             }
-    //             else {
-    //                 dave.style.display = 'none';
-    //             }
-    //         }
-    //     }    
-    // );
-
-    function keyup(event) {
-        var mySearchTerm = this.value;
-
-        for (let i = 0; 0 < images.length; i++) {
-            var dave = images[i];
-
-            if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)) {
-                dave.style.display = 'block';
+                if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)) {
+                    dave.style.display = 'block';
+                }
+                else {
+                    dave.style.display = 'none';
+                }
             }
-            else {
-                dave.style.display = 'none';
-            }
-        }
-    }
-    searchBox.addEventListener('keyup', keyupFunction
+        }    
     );
+
+    // function keyup(event) {
+    //     var mySearchTerm = this.value;
+
+    //     for (let i = 0; i < images.length; i++) {
+    //         var dave = images[i];
+
+    //         if (mySearchTerm === 'all' || dave.getAttribute('class').includes(mySearchTerm)) {
+    //             dave.style.display = 'block';
+    //         }
+    //         else {
+    //             dave.style.display = 'none';
+    //         }
+    //     }
+    // }
+    // searchBox.addEventListener('keyup', keyupFunction
+    // );
 </script>
