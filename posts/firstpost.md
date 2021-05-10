@@ -1,7 +1,7 @@
 ---
 title: Started the JAMstack course.
 description: This is a post on my adventure through the JAMstack course by The Coders Guild.
-date: 2018-05-01
+date: 2021-01-28
 tags:
   - another-tag
 layout: layouts/post.njk
