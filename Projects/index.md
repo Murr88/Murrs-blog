@@ -25,7 +25,8 @@ eleventyNavigation:
         <a href="https://github.com/Murr88" target="_blank"><img src="/img/Github-logo.png" style="width: 250px;height: 250px;" alt="My Github Profile."></a>
     </div>
     <div class="col-sm-3">
-    <a href="https://murr88.github.io/Flash-games" target="_blank"><img src="/img/cmg-logo.png" style="width: 250px;height: 250px;" alt="My own Flash games website, games from Crazy Monkey Games"></a>
+    <br>
+    <a href="https://murr88.github.io/Flash-games" target="_blank"><img src="/img/cmg-logo.png" style="width: 250px;height: 80px;" alt="My own Flash games website, games from Crazy Monkey Games"></a>
     </div>
 </div>
 <hr>
